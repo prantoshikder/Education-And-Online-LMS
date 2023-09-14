@@ -1,0 +1,31 @@
+.main-header {
+  .header {
+    background-color: #1d2026;
+
+    .menu-items {
+      background-color: #1d2026;
+
+      .ant-menu-submenu,
+      .ant-menu-item {
+        color: #8c94a3;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.14px;
+
+        &::after {
+          border-block-color: transparent;
+        }
+
+        &.ant-menu-submenu-active,
+        &.ant-menu-item-active {
+          color: #fff;
+        }
+
+        &.ant-menu-submenu-selected,
+        &.ant-menu-item-selected {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
