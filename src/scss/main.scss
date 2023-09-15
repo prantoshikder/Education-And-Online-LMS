@@ -1,5 +1,7 @@
-@import "./globals.scss";
-@import "./form.styles.scss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "./globals.scss";
+@import "./button.scss";
+@import "./form.styles.scss";

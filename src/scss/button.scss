@@ -1,0 +1,34 @@
+.sub-header-auth-wrapper {
+  .auth-btn {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.128px;
+    text-transform: capitalize;
+    border: none;
+    box-shadow: none;
+    height: 40px;
+    padding: 0 24px;
+    line-height: 0;
+    border-radius: 4px;
+    transition: all 0.3s linear;
+
+    &.create-btn {
+      color: #ff6636;
+      background-color: #ffeee8;
+
+      &:hover {
+        color: #fff;
+        background-color: #ff6636;
+      }
+    }
+
+    &.sign-in-btn {
+      color: #fff;
+      background-color: #ff6636;
+
+      &:hover {
+        background-color: #ff6636;
+      }
+    }
+  }
+}
